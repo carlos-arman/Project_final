@@ -28,6 +28,10 @@ public class Usuario {
     String respuesta;
     String fecha;
 
+    public Usuario(int id) {
+        this.id = 0;
+    }
+
    
 
     public int getId() {
@@ -124,14 +128,7 @@ public class Usuario {
 
     public Usuario() {
 
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            cnn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bd_inventario?zeroDateTimeBehavior=convertToNull", "root", "");
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(Usuario.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (SQLException ex) {
-            Logger.getLogger(Usuario.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        
 
     }
     public Usuario(int id, String nombre, String apellido, String correo, String usuario, String clave, int tipo, int estado, String pregunta, String respuesta, String fecha) {
@@ -147,18 +144,5 @@ public class Usuario {
         this.respuesta = respuesta;
         this.fecha = fecha;
     }
-     public boolean InsertarDatos() {
-        try {
-            String miQuery = "insert into tb_usuario values('" + nombre + "','" + apellido + "','" + correo + "','" + usuario + "'," + clave + "','" + tipo + "','" + estado + "','" + pregunta + "','" + respuesta + "','" + fecha + "');";
-            int es = 0;
-            state = cnn.createStatement();
-            es = state.executeUpdate(miQuery);
-            if (es == 1) {
-                return true;
-            }
-        } catch (SQLException ex) {
-            Logger.getLogger(Usuario.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return false;
-    }
+    
 }

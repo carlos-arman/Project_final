@@ -16,7 +16,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body >
-        <form action="sesion" method="post">
+        <form action="sesion.do" method="post">
             <section class="vh-100" background="">
                 <div class="container py-5 h-100" >
                     <div class="row d-flex justify-content-center align-items-center h-100">

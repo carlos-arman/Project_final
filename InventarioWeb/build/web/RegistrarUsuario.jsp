@@ -19,7 +19,7 @@
     <center>
         <h1> Registro de personas </h1>
 
-        <form action="recibir_SA.do" method="POST">
+        <form action="RegistroUsuario.do" method="POST">
 
             <h3 class="register-heading">Ingrese sus Datos</h3>
             <div class="row register-form">
@@ -53,9 +53,7 @@
                     <div class="form-group">
                         <input name="txtRespuestaU" type="text" class="form-control"  placeholder="Respuesta" value="" />
                     </div>
-                    <div class="form-group">
-                        <input name="txtFechaU" type="date" class="form-control"  placeholder="Fecha" value="" />
-                    </div>
+                    
 
                     <button type="submit" class="btn btn-primary"> Registrar </button>
 

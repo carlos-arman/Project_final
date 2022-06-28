@@ -13,4 +13,5 @@ import java.util.ArrayList;
  */
 public interface UsuarioDAO {
     public ArrayList<Usuario> startSesion(String usuario, String clave);
+     public boolean guardarUsu(Usuario usuario);
 }

@@ -62,7 +62,7 @@ public final class RegistrarUsuario_jsp extends org.apache.jasper.runtime.HttpJs
       out.write("    <center>\n");
       out.write("        <h1> Registro de personas </h1>\n");
       out.write("\n");
-      out.write("        <form action=\"recibir_SA.do\" method=\"POST\">\n");
+      out.write("        <form action=\"RegistroUsuario.do\" method=\"POST\">\n");
       out.write("\n");
       out.write("            <h3 class=\"register-heading\">Ingrese sus Datos</h3>\n");
       out.write("            <div class=\"row register-form\">\n");

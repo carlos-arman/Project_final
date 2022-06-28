@@ -78,5 +78,43 @@ public class UsuarioImplementar  implements UsuarioDAO{
         
         return lista;
     }
+
+    @Override
+    public boolean guardarUsu(Usuario usuario) {
+        this.conn = FactoryConexionDB.open(FactoryConexionDB.MySQL);
+        boolean guardar = false;
+        try{
+            if(usuario.getId()== 0){
+                System.out.println("Hola");
+            StringBuilder miSQL = new StringBuilder();
+            miSQL.append("INSERT INTO tb_usuario(nombre, usuario, correo, clave, estado, tipo, pregunta, respuesta, apellido) VALUES('");
+            miSQL.append(usuario.getNombre() + "', '").append(usuario.getUsuario() + "', '").append(usuario.getCorreo() + "', '").append(usuario.getClave() + "', '").append(usuario.getEstado() + "', '").append(usuario.getTipo() + "', '").append(usuario.getPregunta() + "', '").append(usuario.getRespuesta() + "', '").append(usuario.getApellido()).append("\'");
+            miSQL.append(");");
+            this.conn.ejecutarSQL(miSQL.toString());
+        }else if(usuario.getId() > 0){
+             StringBuilder miSQL = new StringBuilder();
+             miSQL.append("UPDATE tb_usuario SET id = ").append(usuario.getId());
+             miSQL.append(",nombre = '").append(usuario.getNombre());
+             miSQL.append("',apellido = '").append(usuario.getApellido());
+             miSQL.append("',correo ='").append(usuario.getCorreo());
+             miSQL.append("',usuario = '").append(usuario.getUsuario());
+             miSQL.append("',clave = '").append(usuario.getClave());
+             miSQL.append("',tipo = '").append(usuario.getTipo());
+             miSQL.append("', estado = '").append(usuario.getEstado());
+             miSQL.append("',pregunta = '").append(usuario.getPregunta());
+             miSQL.append("',respuesta = '").append(usuario.getRespuesta());
+             miSQL.append("',fecha = '").append(usuario.getFecha());
+             miSQL.append("WHERE id = ").append(usuario.getId()).append(";");
+             this.conn.ejecutarSQL(miSQL.toString());
+        }
+           guardar = true;
+        }catch (Exception e){
+            
+        }finally{
+            this.conn.cerrarConexion();
+        }
+        return guardar;
+    }
+    }
     
-}
+

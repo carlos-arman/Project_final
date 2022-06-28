@@ -64,6 +64,10 @@
         <servlet-name>InisioS</servlet-name>
         <servlet-class>Controller.InisioS</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>RegistroUsuario</servlet-name>
+        <servlet-class>Controller.RegistroUsuario</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Index</servlet-name>
         <url-pattern>/Index</url-pattern>
@@ -127,6 +131,10 @@
     <servlet-mapping>
         <servlet-name>InisioS</servlet-name>
         <url-pattern>/InisioS.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistroUsuario</servlet-name>
+        <url-pattern>/RegistroUsuario.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
