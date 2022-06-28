@@ -1,0 +1,14 @@
+SMAP
+indexxx_jsp.java
+JSP
+*S JSP
+*F
++ 0 indexxx.jsp
+indexxx.jsp
++ 1 css-js.jspf
+WEB-INF/Vistas-Parciales/css-js.jspf
+*L
+5,15:49
+1#1,22:64
+19#0,42:86
+*E

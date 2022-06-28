@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/Controller/RecibirU.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/DAO/RegistroDAO.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/DAO/RegistroDAOImplementer.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/Vistas-Categorias/crearProducto.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/Model/Producto.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/Factory/ConexionDB.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/Controller/Productos.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/InicioSesion.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/RegistrarUsuario.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/Model/DatosPersona.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/Vistas-Categorias/crearCategoria.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/index.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/Factory/FactoryConexionDB.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/Vistas-Categorias/listarCategorias.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/WEB-INF/Vistas-Parciales/encabezado.jspf</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/Model/Usuario.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/src/java/Controller/eliminarPro.java</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/index.html</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/Vistas-Categorias/crearUsuario.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/WEB-INF/web.xml</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/exito.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/Vistas-Categorias/listarProductos.jsp</file>
+            <file>file:/E:/JSP%20PROYECTO/InventarioWeb/web/noexito.jsp</file>
+        </group>
+    </open-files>
+</project-private>

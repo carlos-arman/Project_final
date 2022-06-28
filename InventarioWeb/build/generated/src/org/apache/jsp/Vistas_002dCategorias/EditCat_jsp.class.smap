@@ -1,0 +1,30 @@
+SMAP
+EditCat_jsp.java
+JSP
+*S JSP
+*F
++ 0 EditCat.jsp
+Vistas-Categorias/EditCat.jsp
++ 1 encabezado.jspf
+Vistas-Categorias/../WEB-INF/Vistas-Parciales/encabezado.jspf
++ 2 pie.jspf
+Vistas-Categorias/../WEB-INF/Vistas-Parciales/pie.jspf
+*L
+5,5:50
+11,8:56
+18,8:64
+1#1,10:72
+25#0,7:81
+32,2:88,3
+34,6:94
+40:100,3
+41,6:103
+47:109,3
+48,9:112
+57,5:122
+61,5:127
+66,2:133
+67,4:135
+1#2,8:139
+70#0,4:146
+*E
