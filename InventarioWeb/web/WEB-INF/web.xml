@@ -60,6 +60,10 @@
         <servlet-name>RecibirU</servlet-name>
         <servlet-class>Controller.RecibirU</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>InisioS</servlet-name>
+        <servlet-class>Controller.InisioS</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Index</servlet-name>
         <url-pattern>/Index</url-pattern>
@@ -119,6 +123,10 @@
     <servlet-mapping>
         <servlet-name>RecibirU</servlet-name>
         <url-pattern>/RecibirU.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InisioS</servlet-name>
+        <url-pattern>/InisioS.do</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
